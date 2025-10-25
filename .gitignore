@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+*.out
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Streamlit specific
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/cache/
+.streamlit/state.json
+
+# Encryption keys / private data
+keys/
+*.pem
+
+# Test / temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swm
+*.orig
+
+# Dataset or user data (if you add later)
+data/
+uploads/
+*.csv
+*.xlsx
